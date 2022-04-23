@@ -1,0 +1,16 @@
+.edge__warp{
+  padding-right: 6.8rem;
+  @include centered;
+  flex-shrink: 0;
+  flex-direction: column;
+  text-align: center;
+}
+@media (max-width: 48em) {
+  .edge__warp{
+    
+  padding-bottom: 2rem;
+  flex-direction: row;
+  
+  
+  }
+}

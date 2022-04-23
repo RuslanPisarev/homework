@@ -1,0 +1,18 @@
+@mixin font ($wight, $size, $height) {
+font-weight: $wight;
+font-size: $size;
+line-height: $height;
+}
+@mixin vercen {
+  display: flex;
+  align-items: center;
+}
+@mixin maxWidth{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

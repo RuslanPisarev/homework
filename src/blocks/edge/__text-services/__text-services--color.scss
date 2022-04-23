@@ -1,0 +1,17 @@
+.edge__text-services--color{
+font-family: Inter;
+font-size: 2.2rem;
+font-weight: 500;
+line-height: 3.3rem;
+color: #2B3350;
+}
+
+@media (max-width: 48em) {
+  .edge__text-services--color {
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.1rem;
+
+  }
+}

@@ -1,16 +1,11 @@
 {
-  "name": "lesson-15",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RuslanPisarev/lesson-12.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,7 +16,9 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-newer": "^1.4.0"
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.0"
   },
   "dependencies": {
     "vivus": "^0.4.6"

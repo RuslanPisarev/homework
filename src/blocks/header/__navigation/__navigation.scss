@@ -1,0 +1,10 @@
+.header__navigation {
+  @include vercen;
+  padding-left: 1.1rem
+}
+
+@media (max-width: 48em) {
+  .header__navigation {
+    display: none;
+  }
+}
